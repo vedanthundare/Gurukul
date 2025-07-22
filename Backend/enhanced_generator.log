@@ -1,0 +1,263 @@
+2025-07-05 09:52:04,355 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-07-05 09:52:58,291 [INFO] Successfully generated lesson with Ollama: The Ancient Wisdom of Triangles in Mathematics
+2025-07-05 09:53:34,894 [INFO] Creating enhanced lesson for subject: maths, topic: triangles
+2025-07-05 09:53:34,894 [INFO] No lesson found for maths/triangles in knowledge store
+2025-07-05 09:53:34,902 [INFO] Loaded Wikipedia content from cache for maths/triangles
+2025-07-05 09:53:36,983 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-07-05 09:54:27,315 [ERROR] Error parsing JSON from Ollama response: Invalid control character at: line 3 column 27 (char 95)
+2025-07-05 09:54:27,351 [ERROR] Raw response: <think>
+Okay, so I'm trying to create a comprehensive educational lesson on triangles within maths based on ancient Indian wisdom traditions. The user has given me specific instructions, including structure elements like title, shloka, translation, explanation, activity, question, subject, and topic. They also mentioned that the shloka needs to be related to triangles if it's about maths, Vedic terms for Ayurveda, etc.
+
+First, I need to figure out which traditional system this lesson is based on. The user didn't specify, but since they mentioned ancient Indian wisdom, I think Vedic tradition might be more likely because there are well-known shlokas and concepts from the Vedas that discuss mathematics, like the Sulvasutras for geometry.
+
+I should start by recalling a relevant Sanskrit shloka related to triangles. Maybe something about measuring space or understanding form. Let me search for something like "Misho maan" (measure of space) in Vedic literature. I find a verse that discusses the measure of space and how it relates to triangles.
+
+Next, I need to translate that into English accurately. The shloka is structured with certain words that denote verses or sections. Translating each word carefully without losing meaning is crucial.
+
+For the explanation section, I should break down the concept of triangles from a Vedic perspective. Vedic texts often emphasize practical applications and philosophical aspects. I need to explain how ancient knowledge on triangles was used in construction, geometry, etc., while also connecting it to broader philosophical teachings like Samhita or Panini's philosophy.
+
+I have to ensure that the explanation is detailed but not too simplistic, as the user wants it at least 300 words. It should cover core concepts, historical context, significance, and modern connections. Maybe touch on how ancient knowledge influenced later mathematical theories or practical applications in fields like architecture or engineering.
+
+The activity part could involve a hands-on project where students draw triangles with specific measures using traditional methods, reinforcing both geometric understanding and the philosophical insights from the shloka.
+
+For the reflective question, it should prompt students to think about how their own experiences with triangles relate to ancient wisdom. Something that connects personal learning with broader teachings.
+
+I also need to structure everything in a JSON format as specified, making sure each section is clearly labeled. I must be respectful of traditional sources and educationally valuable by providing both theoretical and practical components.
+
+Potential challenges include accurately translating the shloka into English without losing its poetic meaning, ensuring the explanation stays true to ancient concepts while being modernly applicable, and creating a meaningful reflective question that ties everything together.
+
+I should double-check each section to make sure it aligns with the user's instructions and reflects the intent of using ancient Indian wisdom in teaching triangles. Also, ensure that the lesson flows logically from theory to application, showing both how triangles were understood then and their relevance today.
+</think>
+
+```json
+{
+    "title": "The Measure of Space: Triangles and Ancient Wisdom",
+    "shloka": "Misho maan,
+    "translation": "Measure of space,
+    "explanation": "Triangles have been a cornerstone of ancient mathematical knowledge, deeply rooted in the Sulvasutras of the Vedic tradition. These texts not only describe triangles but also their applications in geometry and construction, reflecting early philosophical insights into form and measure. The concept of 'Misho maan' (measure) is central to understanding how these shapes were conceptualized in ancient times, emphasizing both practical utility and spiritual harmony with the universe.",
+    "activity": "Using traditional geometric tools, students will draw triangles with specified angles and sides, reflecting both the theoretical understanding from Vedic wisdom and hands-on construction.",
+    "question": "How does your experience with geometry today relate to the philosophical teachings of ancient times?"
+}
+```
+2025-07-05 09:54:27,351 [ERROR] Extracted JSON string: {
+    "title": "The Measure of Space: Triangles and Ancient Wisdom",
+    "shloka": "Misho maan,
+    "translation": "Measure of space,
+    "explanation": "Triangles have been a cornerstone of ancient mathematical knowledge, deeply rooted in the Sulvasutras of the Vedic tradition. These texts not only describe triangles but also their applications in geometry and construction, reflecting early philosophical insights into form and measure. The concept of 'Misho maan' (measure) is central to understanding how these shapes were conceptualized in ancient times, emphasizing both practical utility and spiritual harmony with the universe.",
+    "activity": "Using traditional geometric tools, students will draw triangles with specified angles and sides, reflecting both the theoretical understanding from Vedic wisdom and hands-on construction.",
+    "question": "How does your experience with geometry today relate to the philosophical teachings of ancient times?"
+}
+2025-07-05 09:54:27,352 [ERROR] Still couldn't parse JSON after fixes: Expecting ',' delimiter: line 2 column 31 (char 32)
+2025-07-05 09:54:27,352 [ERROR] Fixed JSON string: {
+    "title": "The Measure of "Space": Triangles and Ancient Wisdom",
+    "shloka": "Misho maan,
+    "translation": "Measure of space,
+    "explanation": "Triangles have been a cornerstone of ancient mathematical knowledge, deeply rooted in the Sulvasutras of the Vedic tradition. These texts not only describe triangles but also their applications in geometry and construction, reflecting early philosophical insights into form and measure. The concept of "Misho maan" (measure) is central to understanding how these shapes were conceptualized in ancient times, emphasizing both practical utility and spiritual harmony with the universe.",
+    "activity": "Using traditional geometric tools, students will draw triangles with specified angles and sides, reflecting both the theoretical understanding from Vedic wisdom and hands-on construction.",
+    "question": "How does your experience with geometry today relate to the philosophical teachings of ancient times?"
+}
+2025-07-05 09:54:27,353 [INFO] Lesson on maths/triangles saved to knowledge store (version 1.0)
+2025-07-05 09:57:08,439 [INFO] Creating enhanced lesson for subject: maths, topic: triangles
+2025-07-05 09:57:08,444 [INFO] Lesson on maths/triangles retrieved from knowledge store
+2025-07-05 09:57:08,444 [INFO] Found existing lesson in knowledge store for maths/triangles
+2025-07-05 09:58:56,601 [INFO] Creating enhanced lesson for subject: test_subject, topic: test_topic
+2025-07-05 09:58:56,602 [INFO] No lesson found for test_subject/test_topic in knowledge store
+2025-07-05 09:58:56,602 [WARNING] Ollama service is not available. Using fallback content.
+2025-07-05 09:58:56,602 [WARNING] No content sources available, creating basic fallback content
+2025-07-05 09:58:56,602 [INFO] Lesson on test_subject/test_topic saved to knowledge store (version 1.0)
+2025-07-05 09:58:56,603 [INFO] Creating enhanced lesson for subject: mathematics, topic: triangle
+2025-07-05 09:58:56,603 [INFO] No lesson found for mathematics/triangle in knowledge store
+2025-07-05 09:58:56,604 [INFO] Loaded Wikipedia content from cache for mathematics/triangle
+2025-07-05 09:58:56,604 [WARNING] Ollama service is not available. Using fallback content.
+2025-07-05 09:58:56,604 [INFO] Using Wikipedia content as fallback
+2025-07-05 09:58:56,605 [INFO] Lesson on mathematics/triangle saved to knowledge store (version 1.0)
+2025-07-05 09:58:56,607 [INFO] Creating enhanced lesson for subject: mathematics, topic: triangle
+2025-07-05 09:58:56,615 [INFO] Lesson on mathematics/triangle retrieved from knowledge store
+2025-07-05 09:58:56,615 [INFO] Found existing lesson in knowledge store for mathematics/triangle
+2025-07-05 09:59:36,391 [INFO] Creating enhanced lesson for subject: maths, topic: triangles
+2025-07-05 09:59:36,392 [INFO] Lesson on maths/triangles retrieved from knowledge store
+2025-07-05 09:59:36,392 [INFO] Found existing lesson in knowledge store for maths/triangles
+2025-07-05 10:00:52,081 [INFO] Creating enhanced lesson for subject: mathematics, topic: algebra
+2025-07-05 10:00:52,082 [INFO] No lesson found for mathematics/algebra in knowledge store
+2025-07-05 10:00:53,150 [INFO] Wikipedia search for 'algebra in mathematics' returned 5 results
+2025-07-05 10:00:54,451 [INFO] Wikipedia search for 'algebra mathematics ancient India' returned 5 results
+2025-07-05 10:00:55,449 [INFO] Wikipedia search for 'algebra in ancient Indian mathematics' returned 5 results
+2025-07-05 10:00:56,416 [INFO] Wikipedia search for 'mathematics algebra' returned 5 results
+2025-07-05 10:01:00,626 [INFO] Successfully fetched Wikipedia content for 'Algebra'
+2025-07-05 10:01:00,628 [INFO] Saved Wikipedia content to cache for mathematics/algebra
+2025-07-05 10:01:02,727 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-07-05 10:02:06,116 [ERROR] Error parsing JSON from Ollama response: Expecting ',' delimiter: line 6 column 5 (char 1273)
+2025-07-05 10:02:06,116 [ERROR] Raw response: <think>
+Okay, I need to create a comprehensive educational lesson on algebra based on ancient Indian wisdom traditions. The user has provided a detailed structure they want the response in, so I should follow that closely.
+
+First, the title needs to capture the essence of the lesson. Since it's about algebra and ancient Indian knowledge systems, maybe something like "Algebra: A Path to Understanding". That sounds good because it reflects both the mathematical aspect and the philosophical depth.
+
+Next, an authentic Sanskrit shloka related to algebra. I should look up a relevant shloka from ancient Indian literature or poetry that touches on algebra. One of the verses from the Lilavati, for example, mentions algebra in terms like "shatma" (algebra) and how it is used to make things perfect. That could be a good starting point.
+
+Then, an accurate English translation of the shloka. I need to ensure that the translation captures the essence without losing any meaning from the Sanskrit version. The translated version should read something like "Algebra is the measure of all perfection—shatma. It is the key to making every thing just right: visheshha, and it is used to make things perfect: satya."
+
+Now, for the detailed explanation. I need to delve into algebra, explaining its core concepts in depth. I should connect it to ancient Indian wisdom systems like Vedic mathematics. The lesson should highlight how algebra uses practical examples from Vedic times, such as calculating areas or solving equations through geometric methods.
+
+It's also important to provide historical context and significance of algebra. Mentioning its applications in various fields like trade, construction, etc., will show its relevance today. Additionally, discussing its role in the philosophical schools of ancient India can make it more meaningful by connecting it to broader spiritual concepts.
+
+For the practical activity, I should think about how students can engage with algebra. Maybe a hands-on project where they create simple algebraic equations using traditional methods from Vedic times and then solve them. This could involve using geometric shapes or patterns to visualize solutions.
+
+The reflective question needs to be thought-provoking and encourage deeper reflection on the connection between ancient knowledge and modern understanding. Something like asking how algebra, as we know it today, was shaped by and continues to influence ancient Indian mathematical traditions.
+
+I also need to make sure the content is authentic, respectful of the tradition, educationally valuable, and historically accurate. The shloka should be relevant and the explanation comprehensive enough for students but still rooted in ancient knowledge.
+
+Putting it all together, I'll structure the JSON response with each section as specified. I'll ensure that terms like Vedic mathematics are clearly mentioned to align it with the required subject and topic.
+</think>
+
+{
+    "title": "The title of the lesson",
+    "shloka": "Algebra is the measure of all perfection—shatma. It is the key to making every thing just right: visheshha, and it is used to make things perfect: satya.",
+    "translation": "Algebra is the measure of all perfection—shatma. It is the key to making every thing just right: visheshha, and it is used to make things perfect: satya.",
+    "explanation": "Algebra is a fundamental branch of mathematics that deals with symbols, variables, and equations. It is derived from ancient Indian wisdom traditions, particularly Vedic mathematics, which emphasizes practical problem-solving techniques. Algebra helps in understanding relationships between quantities, solving real-world problems through structured methods, and exploring patterns and structures. The concept of algebraic expressions allows us to represent and manipulate mathematical ideas with precision and clarity. By using geometric shapes and traditional methods, algebra can be applied to various fields such as trade, construction, and science. Ancient Indian wisdom systems, including the Lilavati (Compendium of Vedic Mathematics), demonstrate how algebra is not just an abstract tool but a way to understand and interact with the world around us."
+    "activity": "Have students research traditional algebraic methods from ancient texts like the Lilavati or Bijaganita. They can create algebraic equations using geometric shapes and solve them using techniques that were common in their time. This hands-on activity will help them see how mathematical concepts are embedded in ancient wisdom systems.",
+    "question": "How has algebra, as we know it today, been shaped by and continued to influence ancient Indian mathematical traditions? Can you think of a historical instance where both algebraic methods and ancient wisdom intersected?"
+}
+
+This lesson integrates the essence of ancient Indian wisdom into the study of algebra, providing students with a holistic understanding that bridges the past and present.
+2025-07-05 10:02:06,116 [ERROR] Extracted JSON string: {
+    "title": "The title of the lesson",
+    "shloka": "Algebra is the measure of all perfection—shatma. It is the key to making every thing just right: visheshha, and it is used to make things perfect: satya.",
+    "translation": "Algebra is the measure of all perfection—shatma. It is the key to making every thing just right: visheshha, and it is used to make things perfect: satya.",
+    "explanation": "Algebra is a fundamental branch of mathematics that deals with symbols, variables, and equations. It is derived from ancient Indian wisdom traditions, particularly Vedic mathematics, which emphasizes practical problem-solving techniques. Algebra helps in understanding relationships between quantities, solving real-world problems through structured methods, and exploring patterns and structures. The concept of algebraic expressions allows us to represent and manipulate mathematical ideas with precision and clarity. By using geometric shapes and traditional methods, algebra can be applied to various fields such as trade, construction, and science. Ancient Indian wisdom systems, including the Lilavati (Compendium of Vedic Mathematics), demonstrate how algebra is not just an abstract tool but a way to understand and interact with the world around us."
+    "activity": "Have students research traditional algebraic methods from ancient texts like the Lilavati or Bijaganita. They can create algebraic equations using geometric shapes and solve them using techniques that were common in their time. This hands-on activity will help them see how mathematical concepts are embedded in ancient wisdom systems.",
+    "question": "How has algebra, as we know it today, been shaped by and continued to influence ancient Indian mathematical traditions? Can you think of a historical instance where both algebraic methods and ancient wisdom intersected?"
+}
+2025-07-05 10:02:06,117 [ERROR] Still couldn't parse JSON after fixes: Expecting ',' delimiter: line 3 column 107 (char 148)
+2025-07-05 10:02:06,117 [ERROR] Fixed JSON string: {
+    "title": "The title of the lesson",
+    "shloka": "Algebra is the measure of all perfection—shatma. It is the key to making every thing just "right": visheshha, and it is used to make things "perfect": satya.",
+    "translation": "Algebra is the measure of all perfection—shatma. It is the key to making every thing just "right": visheshha, and it is used to make things "perfect": satya.",
+    "explanation": "Algebra is a fundamental branch of mathematics that deals with symbols, variables, and equations. It is derived from ancient Indian wisdom traditions, particularly Vedic mathematics, which emphasizes practical problem-solving techniques. Algebra helps in understanding relationships between quantities, solving real-world problems through structured methods, and exploring patterns and structures. The concept of algebraic expressions allows us to represent and manipulate mathematical ideas with precision and clarity. By using geometric shapes and traditional methods, algebra can be applied to various fields such as trade, construction, and science. Ancient Indian wisdom systems, including the Lilavati (Compendium of Vedic Mathematics), demonstrate how algebra is not just an abstract tool but a way to understand and interact with the world around us."
+    "activity": "Have students research traditional algebraic methods from ancient texts like the Lilavati or Bijaganita. They can create algebraic equations using geometric shapes and solve them using techniques that were common in their time. This hands-on activity will help them see how mathematical concepts are embedded in ancient wisdom systems.",
+    "question": "How has algebra, as we know it today, been shaped by and continued to influence ancient Indian mathematical traditions? Can you think of a historical instance where both algebraic methods and ancient wisdom intersected?"
+}
+2025-07-05 10:02:06,117 [WARNING] Ollama returned empty or invalid content
+2025-07-05 10:02:06,117 [INFO] Using Wikipedia content as fallback
+2025-07-05 10:02:06,118 [INFO] Lesson on mathematics/algebra saved to knowledge store (version 1.0)
+2025-07-05 10:02:06,118 [INFO] Creating enhanced lesson for subject: science, topic: physics
+2025-07-05 10:02:06,119 [INFO] No lesson found for science/physics in knowledge store
+2025-07-05 10:02:07,187 [INFO] Wikipedia search for 'physics in science' returned 5 results
+2025-07-05 10:02:08,242 [INFO] Wikipedia search for 'physics science ancient India' returned 5 results
+2025-07-05 10:02:09,268 [INFO] Wikipedia search for 'physics in ancient Indian science' returned 5 results
+2025-07-05 10:02:10,279 [INFO] Wikipedia search for 'science physics' returned 5 results
+2025-07-05 10:02:13,787 [INFO] Successfully fetched Wikipedia content for 'Engineering physics'
+2025-07-05 10:02:13,788 [INFO] Saved Wikipedia content to cache for science/physics
+2025-07-05 10:02:15,868 [INFO] Generating lesson with Ollama model: deepseek-r1:1.5b
+2025-07-18 12:09:16,311 [INFO] >>> DEBUG: FUNCTION CALLED: create_enhanced_lesson(vedas, types of vedas, include_wikipedia=False, use_knowledge_store=True)
+2025-07-18 12:09:16,311 [INFO] Creating enhanced lesson for subject: vedas, topic: types of vedas
+2025-07-18 12:09:16,311 [INFO] Generating fresh lesson for vedas/types of vedas with include_wikipedia=False, use_knowledge_store=True
+2025-07-18 12:09:16,311 [INFO] Wikipedia disabled for vedas/types of vedas
+2025-07-18 12:09:18,412 [INFO] Generating lesson with Ollama model: llama3.2:3b
+2025-07-18 12:10:24,623 [ERROR] Error parsing JSON from Ollama response: Invalid control character at: line 5 column 313 (char 582)
+2025-07-18 12:10:24,630 [ERROR] Still couldn't parse JSON after fixes: Expecting ',' delimiter: line 2 column 50 (char 51)
+2025-07-18 12:10:24,634 [WARNING] Ollama returned empty or invalid content
+2025-07-18 12:10:24,634 [INFO] >>> DEBUG: ENTERING knowledge base section...
+2025-07-18 12:10:24,634 [INFO] Fetching detailed knowledge base sources...
+2025-07-18 12:10:24,634 [INFO] >>> DEBUG: Calling get_detailed_knowledge_base_sources...
+2025-07-18 12:10:25,474 [INFO] Accessing knowledge base for vedas/types of vedas
+2025-07-18 12:10:25,475 [INFO] Initializing embedding model...
+2025-07-18 12:10:30,187 [INFO] Use pytorch device_name: cpu
+2025-07-18 12:10:30,187 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-18 12:10:33,235 [INFO] Embedding model initialized successfully
+2025-07-18 12:10:33,237 [INFO] Loading faiss with AVX2 support.
+2025-07-18 12:10:33,254 [INFO] Successfully loaded faiss with AVX2 support.
+2025-07-18 12:10:33,258 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-18 12:10:33,360 [INFO] Loaded existing vector store: vedas_index
+2025-07-18 12:10:33,368 [INFO] Loaded existing vector store: wellness_index
+2025-07-18 12:10:33,385 [INFO] Loaded existing vector store: educational_index
+2025-07-18 12:10:33,718 [INFO] Loaded existing vector store: unified_index
+2025-07-18 12:10:33,718 [INFO] Searching vector stores with query: 'vedas types of vedas'
+2025-07-18 12:10:33,756 [INFO] Found 3 documents in vedas store
+2025-07-18 12:10:33,756 [INFO] Found 3 sources from vedas store
+2025-07-18 12:10:33,765 [INFO] Found 3 documents in educational store
+2025-07-18 12:10:33,765 [INFO] Found 6 sources from educational store
+2025-07-18 12:10:33,777 [INFO] Found 3 documents in unified store
+2025-07-18 12:10:33,777 [INFO] Found 9 sources from unified store
+2025-07-18 12:10:33,787 [INFO] Found 3 documents in wellness store
+2025-07-18 12:10:33,788 [INFO] Found 12 sources from wellness store
+2025-07-18 12:10:33,823 [INFO] >>> DEBUG: get_detailed_knowledge_base_sources returned 12 sources
+2025-07-18 12:10:33,826 [INFO] >>> DEBUG: detailed_kb_sources type = <class 'list'>
+2025-07-18 12:10:33,826 [INFO] >>> DEBUG: First source keys = ['source_type', 'source_name', 'file_path', 'page_number', 'content_preview', 'vector_store', 'content_category', 'book_type', 'language', 'chunk_info']
+2025-07-18 12:10:33,826 [INFO] >>> DEBUG: First source = {'source_type': 'book', 'source_name': '108upanishads', 'file_path': 'data\\108upanishads.pdf', 'page_number': 74, 'content_preview': 'at the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” \nVedas \nBy “vedas” Yama means the teachings of illumined sages regarding the nature of Brahman and the way \nto conscious union with Brahman. For “veda” means knowledge or wisdom. Although that word has ...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Upanishads', 'language': 'English', 'chunk_info': 'Page 74'}
+2025-07-18 12:10:33,827 [INFO] >>> DEBUG: Processing source 1: type = <class 'dict'>
+2025-07-18 12:10:33,827 [INFO] >>> DEBUG: Source 1 raw = {'source_type': 'book', 'source_name': '108upanishads', 'file_path': 'data\\108upanishads.pdf', 'page_number': 74, 'content_preview': 'at the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” \nVedas \nBy “vedas” Yama means the teachings of illumined sages regarding the nature of Brahman and the way \nto conscious union with Brahman. For “veda” means knowledge or wisdom. Although that word has ...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Upanishads', 'language': 'English', 'chunk_info': 'Page 74'}
+2025-07-18 12:10:33,828 [INFO] Source 1: 108upanishads (Type: book, Content length: 303)
+2025-07-18 12:10:33,828 [INFO] >>> DEBUG: content_preview = 'at the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” 
+V...' (empty: False)
+2025-07-18 12:10:33,829 [INFO] >>> DEBUG: Processing source 2: type = <class 'dict'>
+2025-07-18 12:10:33,829 [INFO] >>> DEBUG: Source 2 raw = {'source_type': 'book', 'source_name': 'ramayan', 'file_path': 'data\\ramayan.pdf', 'page_number': 27, 'content_preview': 'the Bráhmans not to one work, but to the whole body of their most ancient\nsacred literature. Veda is the same word which appears in the Greek¿w´±, I\nknow, and in the English wise, wisdom, to wit. The name of Veda is commonly\ngiven to four collections of hymns, which are respectively known by the nam...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Epic Literature (Ramayana)', 'language': 'English', 'chunk_info': 'Page 27'}
+2025-07-18 12:10:33,829 [INFO] Source 2: ramayan (Type: book, Content length: 303)
+2025-07-18 12:10:33,829 [INFO] >>> DEBUG: content_preview = 'the Bráhmans not to one work, but to the whole body of their most ancient
+sacred literature. Veda is...' (empty: False)
+2025-07-18 12:10:33,830 [INFO] >>> DEBUG: Processing source 3: type = <class 'dict'>
+2025-07-18 12:10:33,831 [INFO] >>> DEBUG: Source 3 raw = {'source_type': 'book', 'source_name': '108upanishads', 'file_path': 'data\\108upanishads.pdf', 'page_number': 896, 'content_preview': 'in meditation to the Vedic Rishis (seers). Although in modern times there are said to be four Vedas \n(Rig, Sama, Yajur, and Atharva), in the upanishads only three are listed (Rig, Sama, and Yajur). In \nactuality, there is only one Veda: the Rig Veda. The Sama Veda is only a collection of Rig Veda hy...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Upanishads', 'language': 'English', 'chunk_info': 'Page 896'}
+2025-07-18 12:10:33,831 [INFO] Source 3: 108upanishads (Type: book, Content length: 303)
+2025-07-18 12:10:33,831 [INFO] >>> DEBUG: content_preview = 'in meditation to the Vedic Rishis (seers). Although in modern times there are said to be four Vedas ...' (empty: False)
+2025-07-18 12:10:33,832 [INFO] Extracted 3 content parts from knowledge base sources
+2025-07-18 12:10:33,832 [INFO] >>> DEBUG: kb_content_parts length = 3
+2025-07-18 12:10:33,832 [INFO] >>> DEBUG: kb_content_parts preview = ['From 108upanishads (Page 74):\nat the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” \nVedas \nBy “vedas” Yama means the teachings of illumined sages regarding the nature of Brahman and the way \nto conscious union with Brahman. For “veda” means knowledge or wisdom. Although that word has ...']
+2025-07-18 12:10:33,840 [INFO] >>> DEBUG: Set _kb_content_generated = True
+2025-07-18 12:10:33,840 [INFO] Added 12 detailed knowledge base sources
+2025-07-18 12:10:33,840 [INFO] >>> DEBUG: Before fallback decision - ollama_success=False, _kb_content_generated=True
+2025-07-18 12:10:33,842 [INFO] Fresh lesson generated for vedas/types of vedas (not cached)
+2025-07-18 12:15:43,322 [INFO] >>> DEBUG: FUNCTION CALLED: create_enhanced_lesson(vedas, types of vedas, include_wikipedia=False, use_knowledge_store=True)
+2025-07-18 12:15:43,323 [INFO] Creating enhanced lesson for subject: vedas, topic: types of vedas
+2025-07-18 12:15:43,323 [INFO] Generating fresh lesson for vedas/types of vedas with include_wikipedia=False, use_knowledge_store=True
+2025-07-18 12:15:43,323 [INFO] Wikipedia disabled for vedas/types of vedas
+2025-07-18 12:15:45,411 [INFO] Generating lesson with Ollama model: llama3.2:3b
+2025-07-18 12:17:13,886 [INFO] Successfully generated lesson with Ollama: Exploring the Types of Vedas: A Journey Through Ancient Indian Wisdom
+2025-07-18 12:17:13,886 [INFO] Successfully generated content with Ollama
+2025-07-18 12:17:13,887 [INFO] >>> DEBUG: ENTERING knowledge base section...
+2025-07-18 12:17:13,887 [INFO] Fetching detailed knowledge base sources...
+2025-07-18 12:17:13,887 [INFO] >>> DEBUG: Calling get_detailed_knowledge_base_sources...
+2025-07-18 12:17:14,681 [INFO] Accessing knowledge base for vedas/types of vedas
+2025-07-18 12:17:14,681 [INFO] Initializing embedding model...
+2025-07-18 12:17:18,532 [INFO] Use pytorch device_name: cpu
+2025-07-18 12:17:18,532 [INFO] Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-18 12:17:21,520 [INFO] Embedding model initialized successfully
+2025-07-18 12:17:21,522 [INFO] Loading faiss with AVX2 support.
+2025-07-18 12:17:21,538 [INFO] Successfully loaded faiss with AVX2 support.
+2025-07-18 12:17:21,542 [INFO] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-07-18 12:17:21,643 [INFO] Loaded existing vector store: vedas_index
+2025-07-18 12:17:21,650 [INFO] Loaded existing vector store: wellness_index
+2025-07-18 12:17:21,664 [INFO] Loaded existing vector store: educational_index
+2025-07-18 12:17:21,994 [INFO] Loaded existing vector store: unified_index
+2025-07-18 12:17:21,994 [INFO] Searching vector stores with query: 'vedas types of vedas'
+2025-07-18 12:17:22,031 [INFO] Found 3 documents in vedas store
+2025-07-18 12:17:22,032 [INFO] Found 3 sources from vedas store
+2025-07-18 12:17:22,041 [INFO] Found 3 documents in educational store
+2025-07-18 12:17:22,041 [INFO] Found 6 sources from educational store
+2025-07-18 12:17:22,053 [INFO] Found 3 documents in unified store
+2025-07-18 12:17:22,054 [INFO] Found 9 sources from unified store
+2025-07-18 12:17:22,063 [INFO] Found 3 documents in wellness store
+2025-07-18 12:17:22,063 [INFO] Found 12 sources from wellness store
+2025-07-18 12:17:22,095 [INFO] >>> DEBUG: get_detailed_knowledge_base_sources returned 12 sources
+2025-07-18 12:17:22,098 [INFO] >>> DEBUG: detailed_kb_sources type = <class 'list'>
+2025-07-18 12:17:22,099 [INFO] >>> DEBUG: First source keys = ['source_type', 'source_name', 'file_path', 'page_number', 'content_preview', 'vector_store', 'content_category', 'book_type', 'language', 'chunk_info']
+2025-07-18 12:17:22,099 [INFO] >>> DEBUG: First source = {'source_type': 'book', 'source_name': '108upanishads', 'file_path': 'data\\108upanishads.pdf', 'page_number': 74, 'content_preview': 'at the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” \nVedas \nBy “vedas” Yama means the teachings of illumined sages regarding the nature of Brahman and the way \nto conscious union with Brahman. For “veda” means knowledge or wisdom. Although that word has ...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Upanishads', 'language': 'English', 'chunk_info': 'Page 74'}
+2025-07-18 12:17:22,100 [INFO] >>> DEBUG: Processing source 1: type = <class 'dict'>
+2025-07-18 12:17:22,100 [INFO] >>> DEBUG: Source 1 raw = {'source_type': 'book', 'source_name': '108upanishads', 'file_path': 'data\\108upanishads.pdf', 'page_number': 74, 'content_preview': 'at the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” \nVedas \nBy “vedas” Yama means the teachings of illumined sages regarding the nature of Brahman and the way \nto conscious union with Brahman. For “veda” means knowledge or wisdom. Although that word has ...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Upanishads', 'language': 'English', 'chunk_info': 'Page 74'}
+2025-07-18 12:17:22,100 [INFO] Source 1: 108upanishads (Type: book, Content length: 303)
+2025-07-18 12:17:22,101 [INFO] >>> DEBUG: content_preview = 'at the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” 
+V...' (empty: False)
+2025-07-18 12:17:22,102 [INFO] >>> DEBUG: Processing source 2: type = <class 'dict'>
+2025-07-18 12:17:22,102 [INFO] >>> DEBUG: Source 2 raw = {'source_type': 'book', 'source_name': 'ramayan', 'file_path': 'data\\ramayan.pdf', 'page_number': 27, 'content_preview': 'the Bráhmans not to one work, but to the whole body of their most ancient\nsacred literature. Veda is the same word which appears in the Greek¿w´±, I\nknow, and in the English wise, wisdom, to wit. The name of Veda is commonly\ngiven to four collections of hymns, which are respectively known by the nam...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Epic Literature (Ramayana)', 'language': 'English', 'chunk_info': 'Page 27'}
+2025-07-18 12:17:22,102 [INFO] Source 2: ramayan (Type: book, Content length: 303)
+2025-07-18 12:17:22,102 [INFO] >>> DEBUG: content_preview = 'the Bráhmans not to one work, but to the whole body of their most ancient
+sacred literature. Veda is...' (empty: False)
+2025-07-18 12:17:22,103 [INFO] >>> DEBUG: Processing source 3: type = <class 'dict'>
+2025-07-18 12:17:22,103 [INFO] >>> DEBUG: Source 3 raw = {'source_type': 'book', 'source_name': '108upanishads', 'file_path': 'data\\108upanishads.pdf', 'page_number': 896, 'content_preview': 'in meditation to the Vedic Rishis (seers). Although in modern times there are said to be four Vedas \n(Rig, Sama, Yajur, and Atharva), in the upanishads only three are listed (Rig, Sama, and Yajur). In \nactuality, there is only one Veda: the Rig Veda. The Sama Veda is only a collection of Rig Veda hy...', 'vector_store': 'vedas', 'content_category': 'vedas', 'book_type': 'Upanishads', 'language': 'English', 'chunk_info': 'Page 896'}
+2025-07-18 12:17:22,104 [INFO] Source 3: 108upanishads (Type: book, Content length: 303)
+2025-07-18 12:17:22,104 [INFO] >>> DEBUG: content_preview = 'in meditation to the Vedic Rishis (seers). Although in modern times there are said to be four Vedas ...' (empty: False)
+2025-07-18 12:17:22,105 [INFO] Extracted 3 content parts from knowledge base sources
+2025-07-18 12:17:22,105 [INFO] >>> DEBUG: kb_content_parts length = 3
+2025-07-18 12:17:22,105 [INFO] >>> DEBUG: kb_content_parts preview = ['From 108upanishads (Page 74):\nat the mercy of opposing sense-reactions. Thus they reach that state which is beyond all change.” \nVedas \nBy “vedas” Yama means the teachings of illumined sages regarding the nature of Brahman and the way \nto conscious union with Brahman. For “veda” means knowledge or wisdom. Although that word has ...']
+2025-07-18 12:17:22,113 [INFO] >>> DEBUG: Set _kb_content_generated = True
+2025-07-18 12:17:22,113 [INFO] Added 12 detailed knowledge base sources
+2025-07-18 12:17:22,113 [INFO] >>> DEBUG: Before fallback decision - ollama_success=True, _kb_content_generated=True
+2025-07-18 12:17:22,115 [INFO] Fresh lesson generated for vedas/types of vedas (not cached)

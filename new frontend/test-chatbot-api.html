@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Chatbot API</title>
+</head>
+<body>
+    <h1>Test Chatbot API</h1>
+    <button onclick="testChatFlow()">Test Chat Flow</button>
+    <div id="results"></div>
+
+    <script>
+        async function testChatFlow() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<p>Testing chat flow...</p>';
+
+            const userId = 'guest-user'; // Use the same user ID as the frontend
+
+            try {
+                // Step 1: Send first message to chatpost
+                console.log('Step 1: Sending first message to chatpost');
+                const postResponse1 = await fetch(`http://localhost:8001/chatpost?user_id=${userId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: 'Hello, this is my first message',
+                        llm: 'grok',
+                        type: 'chat_message'
+                    })
+                });
+
+                const postResult1 = await postResponse1.json();
+                console.log('First chatpost result:', postResult1);
+
+                // Step 2: Wait a moment
+                console.log('Step 2: Waiting 3 seconds...');
+                await new Promise(resolve => setTimeout(resolve, 3000));
+
+                // Step 3: Get response from chatbot
+                console.log('Step 3: Getting first response from chatbot');
+                const getResponse1 = await fetch(`http://localhost:8001/chatbot?user_id=${userId}&timestamp=${new Date().toISOString()}&type=chat_message`);
+                const getResult1 = await getResponse1.json();
+                console.log('First chatbot result:', getResult1);
+
+                // Step 4: Send second message immediately
+                console.log('Step 4: Sending second message to chatpost');
+                const postResponse2 = await fetch(`http://localhost:8001/chatpost?user_id=${userId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: 'What is 2 + 2?',
+                        llm: 'grok',
+                        type: 'chat_message'
+                    })
+                });
+
+                const postResult2 = await postResponse2.json();
+                console.log('Second chatpost result:', postResult2);
+
+                // Step 5: Wait a moment
+                console.log('Step 5: Waiting 3 seconds...');
+                await new Promise(resolve => setTimeout(resolve, 3000));
+
+                // Step 6: Get second response from chatbot
+                console.log('Step 6: Getting second response from chatbot');
+                const getResponse2 = await fetch(`http://localhost:8001/chatbot?user_id=${userId}&timestamp=${new Date().toISOString()}&type=chat_message`);
+                const getResult2 = await getResponse2.json();
+                console.log('Second chatbot result:', getResult2);
+
+                // Display results
+                resultsDiv.innerHTML = `
+                    <h3>Results:</h3>
+                    <h4>1. First Chatpost Response:</h4>
+                    <pre>${JSON.stringify(postResult1, null, 2)}</pre>
+                    <h4>2. First Chatbot Response:</h4>
+                    <pre>${JSON.stringify(getResult1, null, 2)}</pre>
+                    <h4>3. Second Chatpost Response:</h4>
+                    <pre>${JSON.stringify(postResult2, null, 2)}</pre>
+                    <h4>4. Second Chatbot Response:</h4>
+                    <pre>${JSON.stringify(getResult2, null, 2)}</pre>
+                `;
+
+            } catch (error) {
+                console.error('Error:', error);
+                resultsDiv.innerHTML = `<p style="color: red;">Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>
